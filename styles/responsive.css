@@ -1,0 +1,114 @@
+@media screen and (min-width:440px){
+    .logo{
+        width: 14.2rem;
+        height: 4.2rem;
+        background-size: cover;
+    }
+    .menu-item__header{
+        font-size: 1.7rem;
+        margin-right: 3.5rem;
+        }
+        .footer-logo{
+            padding-top: 27rem;
+        }
+}
+@media screen and (min-width:576px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .title-header{
+        font-size: 2.5rem;
+        max-width: 35rem;
+        }
+        .text-header{
+            max-width: 30rem;
+            font-size: 1.5rem;
+        }
+        .for-background{
+            height: 27rem;
+    bottom: -5rem;  
+        }
+        .started-link{
+            margin-left: 1rem;
+            margin-top: 0;
+        }
+        .input__started{
+            margin-bottom: 0;
+            width: 25rem;
+        }
+        .started-link{
+            width: 18rem;
+        }
+        .info-footer{
+            flex-direction: row;
+        }
+        .footer-logo{
+            padding-top: 17rem;
+        }
+}
+
+@media screen and (min-width:768px){
+    .menu-item__header{
+        font-size: 2.1rem;
+        margin-right: 6.5rem;
+        }
+        .logo{
+            width: 17rem;
+            height: 5rem;
+            background-size: cover;
+        }
+        .for-background{
+            height: 37rem;
+    bottom: -16rem;  
+        }
+        .works-img{
+            margin-right: 3rem;
+ padding: 0;
+        }
+        
+        .works-text--section{
+            /* text-align: center; */
+            padding: 0;
+            margin-left: 3rem;
+            }
+        .stay-title__text{
+            font-size: 2.2rem;
+        }
+        .stay-text{
+            font-size: 1.7rem;
+            max-width: 38rem;
+}
+.input__started{
+ 
+    width: 29rem;
+}
+.started{
+    top: -13rem;
+}
+}
+@media screen and (min-width:992px){
+    .for-background{
+        background: url(../icon/bg-curvy-desktop.svg);
+        background-size: cover;
+text-align: center;
+background-position:center ;
+        height: 33rem;
+bottom: -9rem;  
+    }
+    .started{
+        margin: 0 auto;
+    }
+    .menu-item__header{
+        margin-right: 5rem;
+    }
+    .menu-item__header:last-child{
+        margin-right: 2rem;
+    }
+}
+@media screen and (min-width:1200px){
+    .for-background{
+        height: 40rem;
+        bottom: -15rem;  
+    }
+}
